@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Testcases(failed)" verbose="2">
+    <classes>
+      <class name="testcases.AdminTC">
+        <methods>
+          <include name="admin"/>
+          <include name="driverpack"/>
+        </methods>
+      </class> <!-- testcases.AdminTC -->
+    </classes>
+  </test> <!-- Testcases(failed) -->
+</suite> <!-- Failed suite [Test suite] -->
